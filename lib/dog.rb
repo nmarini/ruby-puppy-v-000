@@ -8,11 +8,11 @@ class Dog
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all.each_char { |dog| puts dog.name }
   end
 
-  def self.clear_all 
+  def self.clear_all
     @@all.clear
   end
 end
